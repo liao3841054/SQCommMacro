@@ -24,7 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A3782294203FCAD300A316C4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A3782290203FCAD200A316C4 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96EB59B3E0273370D46D21A1 /* Pods_SQCommMacro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQCommMacro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3782290203FCAD200A316C4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		A3782297203FCB0F00A316C4 /* SQAppInfoMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQAppInfoMacro.h; sourceTree = "<group>"; };
 		A3782298203FD00C00A316C4 /* SQUtilMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQUtilMacro.h; sourceTree = "<group>"; };
 		A8DF938185FF153F43FE308D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -202,7 +200,6 @@
 		A378228F203FCAD200A316C4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A3782290203FCAD200A316C4 /* .gitkeep */,
 				A3782297203FCB0F00A316C4 /* SQAppInfoMacro.h */,
 				A3782298203FD00C00A316C4 /* SQUtilMacro.h */,
 			);
@@ -309,7 +306,6 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				A3782294203FCAD300A316C4 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
