@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 App统一的公共的宏定义，涉及屏幕宽高信息，系统版本信息，Log信息，颜色，字体...
                        DESC
 
-  s.homepage         = 'https://github.com/SQKB/SQCommMacro'
+  s.homepage         = 'https://github.com/liao3841054/SQCommMacro.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SQKB' => 'SQKB' }
-  s.source           = { :git => 'https://github.com/SQKB/SQCommMacro.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liao3841054/SQCommMacro.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
