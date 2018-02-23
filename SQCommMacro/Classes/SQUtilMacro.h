@@ -9,6 +9,19 @@
 #ifndef SQUtilMacro_h
 #define SQUtilMacro_h
 
+/// 系统版本
+#define IOS_VERSION_7_OR_ABOVE  (([[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0)? (YES):(NO))
+#define IOS_VERSION_9_OR_ABOVE  (([[[UIDevice currentDevice] systemVersion] doubleValue] >= 9.0)? (YES):(NO))
+#define IOS_VERSION_8_OR_ABOVE  (([[[UIDevice currentDevice] systemVersion] doubleValue] >= 8.0)? (YES):(NO))
+#define IOS_VERSION_LESS_IOS9   (([[[UIDevice currentDevice] systemVersion] doubleValue] < 9.0)? (YES):(NO))
+
+/// 设备
+#define iPhone4                 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6                 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6Plus             ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhoneX                 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IPAD                    ([[UIDevice currentDevice] respondsToSelector:@selector(userInterfaceIdiom)] && [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+
 /// 屏幕frame
 #define kScreenRect             [UIScreen mainScreen].bounds
 
@@ -36,24 +49,11 @@
 /// 简单弹窗
 #define kTipAlert(_S_, ...)     [[[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:(_S_), ##__VA_ARGS__] delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil] show]
 
-/// UserDefault
-#define SQUserDefaults           [NSUserDefaults standardUserDefaults]
-
-/// 字体
-#define FONT(F)                 [UIFont systemFontOfSize:F]
-#define BOldFONT(F)             [UIFont boldSystemFontOfSize:F]
-
-/// 颜色
-#define RGB(x,y,z)              [UIColor colorWithRed:(x)/255.0 green:(y)/255.0 blue:(z)/255.0 alpha:1.0]
-#define RGBA(x,y,z,a)           [UIColor colorWithRed:(x)/255.0 green:(y)/255.0 blue:(z)/255.0 alpha:a]
-#define ColorFromImageName(n)   [UIColor colorWithPatternImage:[UIImage imageNamed:n]]
-
 /// 弃用便捷写法 attribute
 #define SQ_DEPRECATED_IOS(_btVersion, ...) __attribute__((deprecated("")))
 
 /// 不可用
 #define SQ_UNAVAILABLE(message) __attribute__((unavailable(message)))
-
 
 
 /// 是否是子类

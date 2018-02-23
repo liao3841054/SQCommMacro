@@ -25,8 +25,6 @@ static inline void CPLog(NSString *format, ...) {
 #define DLog(format, ...)
 #endif
 
-//#define NSLog(format, ...)      CPLog(format, ##__VA_ARGS__);
-
 #ifdef DEBUG
 #define NSLog(FORMAT, ...)      fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 #else
@@ -49,6 +47,18 @@ static inline void CPLog(NSString *format, ...) {
 #define kAppVersion             [InfoDictionary objectForKey:@"CFBundleShortVersionString"]
 #define kBoundleId              [InfoDictionary objectForKey:(NSString*)kCFBundleIdentifierKey]
 
+/// UserDefault
+#define SQUserDefaults           [NSUserDefaults standardUserDefaults]
+
+/// 字体
+#define FONT(F)                 [UIFont systemFontOfSize:F]
+#define BOldFONT(F)             [UIFont boldSystemFontOfSize:F]
+
+/// 颜色
+#define RGB(x,y,z)              [UIColor colorWithRed:(x)/255.0 green:(y)/255.0 blue:(z)/255.0 alpha:1.0]
+#define RGBA(x,y,z,a)           [UIColor colorWithRed:(x)/255.0 green:(y)/255.0 blue:(z)/255.0 alpha:a]
+#define ColorFromImageName(n)   [UIColor colorWithPatternImage:[UIImage imageNamed:n]]
+
 /// 颜色
 #define kColorTableBg           RGB(246, 246, 246) // 244
 #define kColorImageBg           RGB(230, 230, 230)
@@ -61,19 +71,6 @@ static inline void CPLog(NSString *format, ...) {
 #define kColorPlaceHolder       RGB(153, 153, 153)
 #define kColorDefaultRed        RGB(253, 99, 99)
 #define kColorDarkRed           RGB(255, 34, 32)
-
-/// 系统版本
-#define IOS_VERSION_7_OR_ABOVE  (([[[UIDevice currentDevice] systemVersion] doubleValue] >= 7.0)? (YES):(NO))
-#define IOS_VERSION_9_OR_ABOVE  (([[[UIDevice currentDevice] systemVersion] doubleValue] >= 9.0)? (YES):(NO))
-#define IOS_VERSION_8_OR_ABOVE  (([[[UIDevice currentDevice] systemVersion] doubleValue] >= 8.0)? (YES):(NO))
-#define IOS_VERSION_LESS_IOS9   (([[[UIDevice currentDevice] systemVersion] doubleValue] < 9.0)? (YES):(NO))
-
-/// 设备
-#define iPhone4                 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
-#define iPhone6                 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
-#define iPhone6Plus             ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
-#define iPhoneX                 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
-#define IPAD                    ([[UIDevice currentDevice] respondsToSelector:@selector(userInterfaceIdiom)] && [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
 
 /// int 转字符串
 #define StringFromInt(int)      [NSString stringWithFormat:@"%ld",int]
