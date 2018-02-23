@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SQCommMacro'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SQCommMacro.'
+  s.summary          = '公共的宏定义'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+App统一的公共的宏定义，涉及屏幕宽高信息，系统版本信息，Log信息，颜色，字体...
                        DESC
 
   s.homepage         = 'https://github.com/SQKB/SQCommMacro'

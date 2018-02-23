@@ -33,6 +33,9 @@
 /// 底部 tabbar 高度
 #define kTabBarHeight           (49 + (iPhoneX ? 34 : 0))
 
+/// 简单弹窗
+#define kTipAlert(_S_, ...)     [[[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:(_S_), ##__VA_ARGS__] delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil] show]
+
 /// UserDefault
 #define SQUserDefaults           [NSUserDefaults standardUserDefaults]
 
@@ -50,6 +53,8 @@
 
 /// 不可用
 #define SQ_UNAVAILABLE(message) __attribute__((unavailable(message)))
+
+
 
 /// 是否是子类
 UIKIT_STATIC_INLINE BOOL IsSubClass(id self,Class c) {
