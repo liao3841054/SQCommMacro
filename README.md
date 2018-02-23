@@ -1,6 +1,6 @@
 # SQCommMacro
 
-[![CI Status](http://img.shields.io/travis/251180323@qq.com/SQCommMacro.svg?style=flat)](https://travis-ci.org/251180323@qq.com/SQCommMacro)
+[![CI Status](http://img.shields.io/travis/SQKB/SQCommMacro.svg?style=flat)](https://travis-ci.org/SQKB/SQCommMacro)
 [![Version](https://img.shields.io/cocoapods/v/SQCommMacro.svg?style=flat)](http://cocoapods.org/pods/SQCommMacro)
 [![License](https://img.shields.io/cocoapods/l/SQCommMacro.svg?style=flat)](http://cocoapods.org/pods/SQCommMacro)
 [![Platform](https://img.shields.io/cocoapods/p/SQCommMacro.svg?style=flat)](http://cocoapods.org/pods/SQCommMacro)
@@ -22,7 +22,7 @@ pod 'SQCommMacro'
 
 ## Author
 
-251180323@qq.com, 251180323@qq.com
+SQKB, SQKB
 
 ## License
 

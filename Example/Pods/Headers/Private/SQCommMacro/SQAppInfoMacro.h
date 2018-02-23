@@ -1,0 +1,1 @@
+../../../../../SQCommMacro/Classes/SQAppInfoMacro.h

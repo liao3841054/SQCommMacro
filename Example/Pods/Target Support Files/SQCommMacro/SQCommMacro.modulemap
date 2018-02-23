@@ -1,0 +1,6 @@
+framework module SQCommMacro {
+  umbrella header "SQCommMacro-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SQCommMacro (0.1.0)
+
+DEPENDENCIES:
+  - SQCommMacro (from `../`)
+
+EXTERNAL SOURCES:
+  SQCommMacro:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SQCommMacro: e316c1434c511bf90dae9633d7f62f4872e8dfde
+
+PODFILE CHECKSUM: 404839eb0701064c1f7a83d8f4dba26f46de7ac7
+
+COCOAPODS: 1.3.1

@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A3782294203FCAD300A316C4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A3782290203FCAD200A316C4 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		23D5972F4F7BF34AEECFD38E /* Pods_SQCommMacro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQCommMacro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B0260628EC979CF88017EE /* SQCommMacro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SQCommMacro.podspec; path = ../SQCommMacro.podspec; sourceTree = "<group>"; };
+		26B0260628EC979CF88017EE /* SQCommMacro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SQCommMacro.podspec; path = ../SQCommMacro.podspec; sourceTree = "<group>"; };
 		433A211118F1F269E4626A70 /* Pods-SQCommMacro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQCommMacro_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQCommMacro_Example/Pods-SQCommMacro_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		45BB35A5F2B5058E30D0B1DA /* Pods-SQCommMacro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQCommMacro_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQCommMacro_Tests/Pods-SQCommMacro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SQCommMacro_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQCommMacro_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,11 +61,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6767AAB3D4A8FF4866E4F617 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6767AAB3D4A8FF4866E4F617 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96EB59B3E0273370D46D21A1 /* Pods_SQCommMacro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQCommMacro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8DF938185FF153F43FE308D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A3782290203FCAD200A316C4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A3782297203FCB0F00A316C4 /* SQAppInfoMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQAppInfoMacro.h; sourceTree = "<group>"; };
+		A3782298203FD00C00A316C4 /* SQUtilMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQUtilMacro.h; sourceTree = "<group>"; };
+		A8DF938185FF153F43FE308D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C23454B26C13E7CE6B788901 /* Pods-SQCommMacro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQCommMacro_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQCommMacro_Tests/Pods-SQCommMacro_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA56005B6B486FF61F44333C /* Pods-SQCommMacro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQCommMacro_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQCommMacro_Example/Pods-SQCommMacro_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,11 +182,31 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				A378228E203FCAD200A316C4 /* SQCommMacro */,
 				26B0260628EC979CF88017EE /* SQCommMacro.podspec */,
 				6767AAB3D4A8FF4866E4F617 /* README.md */,
 				A8DF938185FF153F43FE308D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A378228E203FCAD200A316C4 /* SQCommMacro */ = {
+			isa = PBXGroup;
+			children = (
+				A378228F203FCAD200A316C4 /* Classes */,
+			);
+			name = SQCommMacro;
+			path = ../SQCommMacro;
+			sourceTree = "<group>";
+		};
+		A378228F203FCAD200A316C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3782290203FCAD200A316C4 /* .gitkeep */,
+				A3782297203FCB0F00A316C4 /* SQAppInfoMacro.h */,
+				A3782298203FD00C00A316C4 /* SQUtilMacro.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E2EC7A6317C4F255286DE238 /* Pods */ = {
@@ -250,7 +274,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "251180323@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 865L62UDE9;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 865L62UDE9;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -281,6 +309,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				A3782294203FCAD300A316C4 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -533,6 +562,7 @@
 			baseConfigurationReference = 433A211118F1F269E4626A70 /* Pods-SQCommMacro_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 865L62UDE9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQCommMacro/SQCommMacro-Prefix.pch";
 				INFOPLIST_FILE = "SQCommMacro/SQCommMacro-Info.plist";
@@ -548,6 +578,7 @@
 			baseConfigurationReference = EA56005B6B486FF61F44333C /* Pods-SQCommMacro_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 865L62UDE9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SQCommMacro/SQCommMacro-Prefix.pch";
 				INFOPLIST_FILE = "SQCommMacro/SQCommMacro-Info.plist";
@@ -563,6 +594,7 @@
 			baseConfigurationReference = 45BB35A5F2B5058E30D0B1DA /* Pods-SQCommMacro_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 865L62UDE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -587,6 +619,7 @@
 			baseConfigurationReference = C23454B26C13E7CE6B788901 /* Pods-SQCommMacro_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 865L62UDE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

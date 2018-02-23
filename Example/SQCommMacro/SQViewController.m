@@ -2,11 +2,13 @@
 //  SQViewController.m
 //  SQCommMacro
 //
-//  Created by 251180323@qq.com on 02/23/2018.
-//  Copyright (c) 2018 251180323@qq.com. All rights reserved.
+//  Created by SQKB on 02/23/2018.
+//  Copyright (c) 2018 SQKB. All rights reserved.
 //
 
 #import "SQViewController.h"
+#import <SQCommMacro/SQAppInfoMacro.h>
+#import <SQCommMacro/SQUtilMacro.h>
 
 @interface SQViewController ()
 
@@ -18,7 +20,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    BOOL result = IsEmpty(@"HHH");
+    
+    UIView *backView = [[UIView alloc] initWithFrame:kScreenRect];
+    backView.backgroundColor = RGB(0, 122, 22);
+    [self.view addSubview:backView];
+    
+    UIWindow *window = SQKeyWindow();
+    CGFloat xx =  SQFloatPixelCeil(16.4);
+    CGFloat xx1 =  SQFloatPixelFloor(16.4);
+    
+    
 }
+
 
 - (void)didReceiveMemoryWarning
 {

@@ -1,0 +1,22 @@
+{
+  "name": "SQCommMacro",
+  "version": "0.1.0",
+  "summary": "A short description of SQCommMacro.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/251180323@qq.com/SQCommMacro",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "251180323@qq.com": "251180323@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/251180323@qq.com/SQCommMacro.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SQCommMacro/Classes/**/*"
+}
